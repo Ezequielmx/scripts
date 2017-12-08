@@ -22,6 +22,8 @@ var AndroidContacts = {
         if (options !== undefined) {          
             if (options.phone !== undefined) 
               i.extra("phone" , options.phone);
+            if (options.sec_phone !== undefined) 
+              i.extra("secondary_phone" , options.sec_phone);
             if (options.email !== undefined)
               i.extra("email" , options.email);
             if (options.postal !== undefined)
