@@ -5,6 +5,7 @@ var AndroidContacts = {
     @param {Arguments} options - Extra options
     You can specify extra contact options:
       {string} phone - The contact phone number.
+      {string} sec_phone - The contact secundary phone number.
       {string} email - The contact email address.
       {string} postal - The contact postal address.
       {string} company - The contact company.
